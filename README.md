@@ -33,7 +33,7 @@
 <b>Note (for admin login):- </b> Only the employee with designation as "librarian" can login to the admin section with his faculty ID and password. (By default emp ID - 196543 and password - admin123) Modify it according to your needs. 
 
 
-## ✍️ Authors <a name = "author"></a>* 
+## ✍️ Author <a name = "author"></a>
 - [@yashasuttangi](https://github.com/yashasuttani) - Idea & Initial work
 
 
