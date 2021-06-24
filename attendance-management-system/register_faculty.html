@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--- HTML Starts from here -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Faculty Registration </title>
+    <link rel="stylesheet" href="register_style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Other College Employee Registration Form</div>
+    <div class="content">
+      <form action="insert_faculty_details.php" method="POST">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" name="name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your phone number" name="phone" required>
+          </div>
+          <div class="input-box">
+            <span class="details">College </span>
+            <input type="text" placeholder="Enter your college name" name="college" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Department</span>
+            <input type="text" placeholder="Enter your Department" name="department" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Designation</span>
+            <input type="text" placeholder="Your current designation" name="designation" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Employee ID</span>
+            <input type="text" placeholder="Enter your Employee ID" name="employee_id" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" name="password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" name="passwd" required>
+          </div>
+        </div>
+        <!-- <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div> -->
+        <div class="button">
+          <input onclick="Validate()" type="submit" value="Register">
+        </div>
+        <a style = " white-space:nowrap;" href="first_choice_page.html"><p class="forgot-pass"> <- Back </p></a> 
+        <br> 
+        <a style = " white-space:nowrap;" href="index.html"><p class="forgot-pass"> Enter dashboard </p></a> 
+      </form>
+    </div>
+  </div>
+
+  <!-- <script src="sweetalert.min.js"></script>
+	 <script>
+		 function Validate() {
+			swal("Success", "You have successfuly registered !", "success");
+		 }
+	 </script> -->
+
+</body>
+</html>

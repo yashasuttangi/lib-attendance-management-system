@@ -1,0 +1,59 @@
+<html>
+    <head>    
+    <meta charset="UTF-8">
+    <title> Choose an option </title>
+    <link rel="stylesheet" href="choice_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="javascript">
+    function SelectRedirect(){
+    // ON selection of section this function will work
+    //alert( document.getElementById('s1').value);
+    
+    switch(document.getElementById('s1').value)
+    {
+    case "a":
+    window.location="set_pass_student.html";
+    break;
+    
+    case "b":
+    window.location="set_pass_faculty.html";
+    break;
+    
+    case "c":
+    window.location="register_student.html";
+    break;
+    case "d":
+    window.location="register_faculty.html";
+    break;
+    
+    // case "HTML":
+    // window.location="../html_tutorial/site_map.php";
+    // break;
+    
+    /// Can be extended to other different selections of SubCategory //////
+    default:
+    window.location="index.html"; // if no selection matches then redirected to home page
+    break;
+    }// end of switch 
+    }
+    ////////////////// 
+    </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title"> Please select an Option </div>
+           <div class=dropdown>
+            <SELECT id="s1" NAME="section" onChange="SelectRedirect();">
+                <Option value="a"> Choose an option </option>
+            <Option value="a"> JSS STU student </option>
+            <Option value="b"> JSS STU Faculty </option>
+            <Option value="c"> Other College Student </option>
+            <Option value="d"> Other College Employee </option>
+            </SELECT>
+        </div>
+            
+            <a style = " white-space:nowrap;" href="index.html"><p class="forgot-pass"> HOME </p></a> 
+</div>
+</div> 
+    </body>
+    </html>

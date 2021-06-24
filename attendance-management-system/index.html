@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Library Dashboard</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- <a style = " white-space:nowrap;" href="admin.html"><h5>  ADMIN </h5> </a>  -->
+  <!-- <div class="topleft">Top Left</div> -->
+  <form action="main.php" method="POST" autocomplete="off">
+  <div class="cont">
+    <div class="form sign-in">
+      <h2> Welcome to the Library </h2>
+      <label>
+        <span> Library ID </span>
+        <input type="text" name="lib_id" value="">
+      </label>
+      <label>
+        <span> Password </span>
+        <input type="password" name="password" required>
+      </label>
+      <button class="submit" type="submit" formnovalidate> Enter </button>
+      <a style = " white-space:nowrap;" href="first_choice_page.html"><p class="forgot-pass"> Don't have a Library ID? Register here </p></a> 
+      <br>
+      <br>
+      <br>
+      <br>
+      <a style = " white-space:nowrap;" href="index-r.html"><p class="forgot-pass"> Reference Section </p></a> 
+      <a style = " white-space:nowrap;" href="admin_login.html"><p class="forgot-pass"> ADMIN </p></a> 
+    </div>
+
+    <div class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h2> Are you leaving the library ?</h2>
+          <p> Please make sure you mark your exit. </p>
+        </div>
+        <div class="img-text m-in">
+          <h2> Are you entering the library ? </h2>
+          <p></p>
+        </div>
+        <div class="img-btn">
+          <span class="m-up"> Exit -> </span>
+          <span class="m-in"> <- Entry </span>
+        </div>
+      </div>
+      <div class="form sign-up">
+        <h2> Thank You for visiting us </h2>
+        <label>
+          <span> Library ID </span>
+          <input type="text" name="exit_id" required>
+        </label>
+        <button type="submit" class="submit" formnovalidate> Exit </button>
+      </div>
+    </div>
+  
+  </div>
+</form>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
