@@ -1,4 +1,4 @@
-<h1 align="center"> Library Attendance Management System using PHP and MySQL </h1>
+<h1 align="left"> Library Attendance Management System using PHP and MySQL </h1>
  
  ---- 
  
