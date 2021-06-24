@@ -2,7 +2,7 @@
  
  <p> This simple website was made for my DBMS college project. So feel free to use and modify it if you want. </p>
  
-## Built with 
+## 🏗️Built with 
   <b> HTML, CSS, JavaScript, Bootstrap</b> & <b> jQuery </b> used for front-end.
   <br>
   <b> PHP7 & MySQL </b> used for backend.
@@ -16,7 +16,7 @@
 
 
 ## Steps to run the project (for Windows)
-<b>Step 1 :</b> Download XAMPP for Windows - https://www.apachefriends.org/index.html (While installation make sure you check APACHE option to install) 
+<b>Step 1 :</b> Do![Uploading image.png…]()wnload XAMPP for Windows - https://www.apachefriends.org/index.html (While installation make sure you check APACHE option to install) 
 <br>
 <b>Step 2 :</b> Download MySQL Community Server - https://dev.mysql.com/downloads/mysql/ 
 <br>
