@@ -38,4 +38,4 @@
 
 
 ## 📄 Screenshot <a name = "screenshots"></a>
-- [screenshots](https://github.com/yashasuttangi/lib-attendance-management-system/tree/master/screenshots)
+- [screenshots](https://github.com/yashasuttangi/lib-attendance-management-system/tree/main/Project%20Screenshots)
