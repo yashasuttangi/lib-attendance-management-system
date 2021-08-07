@@ -34,7 +34,7 @@
 
 
 ## ✍️ Author <a name = "author"></a>
-- Yashas Uttangi (https://github.com/yashasuttani) and Prajeeth (https://github.com/Prajeeth11) - Idea & Initial work
+- Yashas Uttangi (https://github.com/yashasuttangi) and Prajeeth (https://github.com/Prajeeth11) - Idea & Initial work
 
 
 ## 📄 Screenshot <a name = "screenshots"></a>
