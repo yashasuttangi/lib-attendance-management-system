@@ -34,7 +34,7 @@
 
 
 ## ✍️ Author <a name = "author"></a>
-- [@yashasuttangi](https://github.com/yashasuttani) - Idea & Initial work
+- [@yashasuttangi] [@prajeeth](https://github.com/yashasuttani) - Idea & Initial work
 
 
 ## 📄 Screenshot <a name = "screenshots"></a>
